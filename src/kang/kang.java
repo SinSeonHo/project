@@ -27,6 +27,16 @@ public class kang {
                     if (n == 20)
                         S = false;
                 }
+                // 테스트 문구입니다.
+                System.out.println("테스트 시작");
+                String test = new String();
+                Scanner scan = new Scanner(System.in);
+                int players = scan.nextInt();
+                System.out.print("  ");
+                for (int i = 0; i < players; i++) {
+                    System.out.printf("%s   ", i + 1);
+                }
+
             }
         }
         int[] answer = new int[5];
