@@ -82,8 +82,8 @@ public class kang {
         // 테스트 문구입니다.
         System.out.println("테스트 시작");
         String test = new String();
-        Scanner scan = new Scanner(System.in);
-        int players = scan.nextInt();
+        Scanner scank = new Scanner(System.in);
+        int players = scank.nextInt();
         System.out.print("  ");
         for (int i = 0; i < players; i++) {
             System.out.printf("%s   ", i + 1);
