@@ -1,5 +1,5 @@
 package cafeproject;
 
-public class Cafeparents extends CafeTerria {
+public class Cafeparents {
 
 }
