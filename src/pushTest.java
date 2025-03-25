@@ -10,5 +10,7 @@ public class pushTest {
         String a = input.nextLine();
         System.out.println(a);
         System.out.println("test2");
+        // 강동현 추가
+        System.out.println("kang");
     }
 }
