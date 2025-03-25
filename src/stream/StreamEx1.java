@@ -7,6 +7,7 @@ import java.util.stream.Stream;
 public class StreamEx1 {
     public static void main(String[] args) {
         List<String> list = Arrays.asList("홍길동", "성춘향", "김자바");
+        System.out.println();
 
         Stream<String> stream = list.stream();
         // forEach(Consumer<? super String> action)
