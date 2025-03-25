@@ -1,20 +1,15 @@
 package cafeproject;
 
-public class Lunacafe {
+public class Mooncafe {
 
     String name;
     String latte;
     int credit;
 
-    public Lunacafe(String name, String latte, int credit) {
+    public Mooncafe(String name, String latte, int credit) {
         this.name = name;
         this.latte = latte;
         this.credit = credit;
-    }
-
-    @Override
-    public String toString() {
-        return "Lunacafe [name=" + name + ", latte=" + latte + ", credit=" + credit + "]";
     }
 
     public String getName() {
@@ -39,6 +34,11 @@ public class Lunacafe {
 
     public void setCredit(int credit) {
         this.credit = credit;
+    }
+
+    @Override
+    public String toString() {
+        return "Mooncafe [name=" + name + ", latte=" + latte + ", credit=" + credit + "]";
     }
 
 }
