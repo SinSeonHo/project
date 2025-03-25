@@ -2,6 +2,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,java
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,java
 
+##사용자추가##
+*.txt
+
 ### Java ###
 # Compiled class file
 *.class
