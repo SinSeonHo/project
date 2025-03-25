@@ -32,20 +32,20 @@ public class StreamEx1 {
             System.out.printf("%s   ", i + 1);
             // 테스트 문구입니다.
             System.out.println("테스트 시작");
-            String test = new String();
-            Scanner scan = new Scanner(System.in);
-            int players = scan.nextInt();
+            String test2 = new String();
+            Scanner scan2 = new Scanner(System.in);
+            int players2 = scan.nextInt();
             System.out.print("  ");
-            for (int i = 0; i < players; i++) {
-                System.out.printf("%s   ", i + 1);
+            for (int j = 0; j < players; j++) {
+                System.out.printf("%s   ", j + 1);
             } // 테스트 문구입니다.
             System.out.println("테스트 시작");
-            String test = new String();
-            Scanner scan = new Scanner(System.in);
-            int players = scan.nextInt();
+            String test3 = new String();
+            Scanner scan3 = new Scanner(System.in);
+            int players3 = scan.nextInt();
             System.out.print("  ");
-            for (int i = 0; i < players; i++) {
-                System.out.printf("%s   ", i + 1);
+            for (int k = 0; k < players; k++) {
+                System.out.printf("%s   ", k + 1);
             }
         }
 
