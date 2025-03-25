@@ -9,5 +9,6 @@ public class pushTest {
         Scanner input = new Scanner(System.in);
         String a = input.nextLine();
         System.out.println(a);
+        System.out.println("test2");
     }
 }
