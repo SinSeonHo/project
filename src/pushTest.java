@@ -19,5 +19,7 @@ public class pushTest {
         for (int i = 0; i < players; i++) {
             System.out.printf("%s   ", i + 1);
         }
+        // 강동현 추가
+        System.out.println("kang");
     }
 }
